@@ -4,11 +4,12 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import NavTabs from "./components/NavTabs";
+import { Jumbotron } from 'react-bootstrap'
 
 function App () {
     return(
         <Router>
-            <h1>Alyssa Schmalenberger</h1>
+            <Jumbotron fluid>Alyssa Schmalenberger</Jumbotron> 
             <div>
                 <NavTabs />
                 <Route exact path="/" component={About} />
