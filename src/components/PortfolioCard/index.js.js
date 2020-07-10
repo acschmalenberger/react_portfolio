@@ -13,9 +13,6 @@ function PortfolioCard() {
           <Card.Img variant="top" src= {item.image}/>
           <Card.Body>
             <Card.Title>{item.title}</Card.Title>
-            <Card.Text>
-              {item.text}
-            </Card.Text>
             <Card.Link href="#">{item.link}</Card.Link>
           </Card.Body>
         </Card>
