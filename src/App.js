@@ -9,7 +9,9 @@ import { Jumbotron } from 'react-bootstrap'
 function App () {
     return(
         <Router>
-            <Jumbotron fluid>Alyssa Schmalenberger</Jumbotron> 
+            <Jumbotron>
+            <h1 style={{ size: '150px', align: "center" }}>Alyssa Schmalenberger</h1> 
+            </Jumbotron> 
             <div>
                 <NavTabs />
                 <Route exact path="/" component={About} />
